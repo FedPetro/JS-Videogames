@@ -1,0 +1,92 @@
+/* NAVBAR */
+.navbar{
+    background-color: black;
+}
+
+.widthScroll{
+    width: 80%;
+    margin-left: 20vh;
+}
+
+p {
+    margin: 0;
+}
+
+.navbar-toggler {
+    color: white !important;
+}
+
+.displayFont{
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+.textFont{
+    font-family: fira sans;
+    font-weight: 500;
+}
+
+/* cancello freccette default per dropdown */
+.dropdown-toggle::after {  
+    display: none;
+}
+
+.bi{
+    cursor: pointer;
+}
+
+
+
+
+/* Carousel Header */
+.carouselOne, .carouselTwo, .carouselThree{
+    height: 100vh;
+    background-image: url(./media/AC.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carouselTwo{
+    background-image: url(./media/Avatar.png);
+}
+
+.carouselThree{
+    background-image: url(./media/XDefiant.png);
+}
+
+.btn-primary{
+    background-color: black;
+    height: 7vh;
+}
+
+.rowMargin{
+    margin-top: 40vh;
+}
+
+
+
+
+/* immagine intramezzo */
+
+.divIscrHeight{
+    height: 40vh;
+}
+
+.bgImg{
+    background-image: url(./media/iscrBanner.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btnIscr{
+    width: 20vh;
+}
+
+
+/* card contatori */
+
+.consoleSize{
+    height:30px;
+}

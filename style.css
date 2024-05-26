@@ -86,7 +86,32 @@ p {
 
 
 /* card contatori */
+.bi-cart{
+    position: absolute;
+    right:5%;
+    top: 2%;
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+}
+
+.bi-cart-check-fill{
+    position: absolute;
+    right:5%;
+    top: 2%;
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+}
+
 
 .consoleSize{
     height:30px;
+}
+
+
+
+/* pagina categorie */
+.marginCat{
+    margin-top: 8vh;
 }

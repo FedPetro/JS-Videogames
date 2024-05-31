@@ -42,6 +42,7 @@ games.forEach((game) => {
                     <i class="bi bi-cart"></i>
                     <div class="card-body bg-black ">
                       <h5 class="card-title displayFont text-light">${game.name}</h5>
+                      <p class="textFont text-light">${game.price} </p>
                       <p class="textFont text-light">${game.genre} </p>
                       <p class="textFont text-light number1 mt-2">Più di 0 utenti </p>
                     </div>

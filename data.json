@@ -1,0 +1,344 @@
+[
+    {
+      "title": "Super Mario Odyssey",
+      "genre": "Platformer",
+      "price": "59.99",
+      "url": "https://example.com/super_mario_odyssey.jpg"
+    },
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "genre": "Action-adventure",
+      "price": "59.99",
+      "url": "https://example.com/zelda_breath_of_the_wild.jpg"
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "genre": "Action-adventure",
+      "price": "59.99",
+      "url": "https://example.com/red_dead_redemption_2.jpg"
+    },
+    {
+      "title": "God of War",
+      "genre": "Action-adventure",
+      "price": "39.99",
+      "url": "https://example.com/god_of_war.jpg"
+    },
+    {
+      "title": "Minecraft",
+      "genre": "Sandbox",
+      "price": "19.99",
+      "url": "https://example.com/minecraft.jpg"
+    },
+    {
+      "title": "Fortnite",
+      "genre": "Battle royale",
+      "price": "0.00",
+      "url": "https://example.com/fortnite.jpg"
+    },
+    {
+      "title": "Pokémon Sword",
+      "genre": "Role-playing",
+      "price": "59.99",
+      "url": "https://example.com/pokemon_sword.jpg"
+    },
+    {
+      "title": "Call of Duty: Modern Warfare",
+      "genre": "First-person shooter",
+      "price": "59.99",
+      "url": "https://example.com/cod_modern_warfare.jpg"
+    },
+    {
+      "title": "Super Smash Bros. Ultimate",
+      "genre": "Fighting",
+      "price": "59.99",
+      "url": "https://example.com/super_smash_bros_ultimate.jpg"
+    },
+    {
+      "title": "FIFA 20",
+      "genre": "Sports",
+      "price": "59.99",
+      "url": "https://example.com/fifa_20.jpg"
+    },
+    {
+      "title": "Assassin's Creed Odyssey",
+      "genre": "Action role-playing",
+      "price": "59.99",
+      "url": "https://example.com/assassins_creed_odyssey.jpg"
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "genre": "Action role-playing",
+      "price": "39.99",
+      "url": "https://example.com/witcher_3_wild_hunt.jpg"
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "genre": "Action-adventure",
+      "price": "29.99",
+      "url": "https://example.com/gta_v.jpg"
+    },
+    {
+      "title": "Overwatch",
+      "genre": "First-person shooter",
+      "price": "39.99",
+      "url": "https://example.com/overwatch.jpg"
+    },
+    {
+      "title": "Animal Crossing: New Horizons",
+      "genre": "Social simulation",
+      "price": "59.99",
+      "url": "https://example.com/animal_crossing_new_horizons.jpg"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "genre": "Action role-playing",
+      "price": "59.99",
+      "url": "https://example.com/cyberpunk_2077.jpg"
+    },
+    {
+      "title": "Mortal Kombat 11",
+      "genre": "Fighting",
+      "price": "59.99",
+      "url": "https://example.com/mortal_kombat_11.jpg"
+    },
+    {
+      "title": "The Last of Us Part II",
+      "genre": "Action-adventure",
+      "price": "59.99",
+      "url": "https://example.com/last_of_us_part_2.jpg"
+    },
+    {
+      "title": "Uncharted 4: A Thief's End",
+      "genre": "Action-adventure",
+      "price": "19.99",
+      "url": "https://example.com/uncharted_4.jpg"
+    },
+    {
+      "title": "Super Mario Maker 2",
+      "genre": "Platformer",
+      "price": "59.99",
+      "url": "https://example.com/super_mario_maker_2.jpg"
+    },
+    {
+      "title": "Destiny 2",
+      "genre": "First-person shooter",
+      "price": "0.00",
+      "url": "https://example.com/destiny_2.jpg"
+    },
+    {
+      "title": "Tom Clancy's Rainbow Six Siege",
+      "genre": "First-person shooter",
+      "price": "19.99",
+      "url": "https://example.com/rainbow_six_siege.jpg"
+    },
+    {
+      "title": "The Elder Scrolls V: Skyrim",
+      "genre": "Action role-playing",
+      "price": "39.99",
+      "url": "https://example.com/skyrim.jpg"
+    },
+    {
+      "title": "League of Legends",
+      "genre": "Multiplayer online battle arena",
+      "price": "0.00",
+      "url": "https://example.com/league_of_legends.jpg"
+    },
+    {
+      "title": "World of Warcraft",
+      "genre": "Massively multiplayer online role-playing",
+      "price": "14.99",
+      "url": "https://example.com/world_of_warcraft.jpg"
+    },
+    {
+      "title": "Madden NFL 20",
+      "genre": "Sports",
+      "price": "59.99",
+      "url": "https://example.com/madden_nfl_20.jpg"
+    },
+    {
+      "title": "NBA 2K20",
+      "genre": "Sports",
+      "price": "59.99",
+      "url": "https://example.com/nba_2k20.jpg"
+    },
+    {
+      "title": "F1 2019",
+      "genre": "Racing",
+      "price": "59.99",
+      "url": "https://example.com/f1_2019.jpg"
+    },
+    {
+      "title": "Apex Legends",
+      "genre": "First-person shooter",
+      "price": "0.00",
+      "url": "https://example.com/apex_legends.jpg"
+    },
+    {
+      "title": "Gears 5",
+      "genre": "Third-person shooter",
+      "price": "59.99",
+      "url": "https://example.com/gears_5.jpg"
+    },
+    {
+      "title": "Forza Horizon 4",
+      "genre": "Racing",
+      "price": "59.99",
+      "url": "https://example.com/forza_horizon_4.jpg"
+    },
+    {
+      "title": "DOOM Eternal",
+      "genre": "First-person shooter",
+      "price": "59.99",
+      "url": "https://example.com/doom_eternal.jpg"
+    },
+    {
+      "title": "Star Wars Jedi: Fallen Order",
+      "genre": "Action-adventure",
+      "price": "59.99",
+      "url": "https://example.com/star_wars_jedi_fallen_order.jpg"
+    },
+    {
+      "title": "Sekiro: Shadows Die Twice",
+      "genre": "Action-adventure",
+      "price": "59.99",
+      "url": "https://example.com/sekiro_shadows_die_twice.jpg"
+    },
+    {
+      "title": "Borderlands 3",
+      "genre": "First-person shooter",
+      "price": "59.99",
+      "url": "https://example.com/borderlands_3.jpg"
+    },
+    {
+      "title": "The Division 2",
+      "genre": "Action role-playing",
+      "price": "59.99",
+      "url": "https://example.com/the_division_2.jpg"
+    },
+    {
+      "title": "Resident Evil 2",
+      "genre": "Survival horror",
+      "price": "39.99",
+      "url": "https://example.com/resident_evil_2.jpg"
+    },
+    {
+      "title": "Cuphead",
+      "genre": "Run and gun",
+      "price": "19.99",
+      "url": "https://example.com/cuphead.jpg"
+    },
+    {
+      "title": "Battlefield V",
+      "genre": "First-person shooter",
+      "price": "59.99",
+      "url": "https://example.com/battlefield_v.jpg"
+    },
+    {
+      "title": "Super Mario Party",
+      "genre": "Party",
+      "price": "59.99",
+      "url": "https://example.com/super_mario_party.jpg"
+    },
+    {
+      "title": "FIFA 19",
+      "genre": "Sports",
+      "price": "19.99",
+      "url": "https://example.com/fifa_19.jpg"
+    },
+    {
+      "title": "The Sims 4",
+      "genre": "Life simulation",
+      "price": "39.99",
+      "url": "https://example.com/the_sims_4.jpg"
+    },
+    {
+      "title": "Diablo III",
+      "genre": "Action role-playing",
+      "price": "19.99",
+      "url": "https://example.com/diablo_3.jpg"
+    },
+    {
+      "title": "Warframe",
+      "genre": "Third-person shooter",
+      "price": "0.00",
+      "url": "https://example.com/warframe.jpg"
+    },
+    {
+      "title": "Rocket League",
+      "genre": "Sports",
+      "price": "19.99",
+      "url": "https://example.com/rocket_league.jpg"
+    },
+    {
+      "title": "Terraria",
+      "genre": "Action-adventure",
+      "price": "9.99",
+      "url": "https://example.com/terraria.jpg"
+    },
+    {
+      "title": "The Legend of Zelda: Link's Awakening",
+      "genre": "Action-adventure",
+      "price": "59.99",
+      "url": "https://example.com/zelda_links_awakening.jpg"
+    },
+    {
+      "title": "Mortal Kombat X",
+      "genre": "Fighting",
+      "price": "19.99",
+      "url": "https://example.com/mortal_kombat_x.jpg"
+    },
+    {
+      "title": "Fallout 4",
+      "genre": "Action role-playing",
+      "price": "29.99",
+      "url": "https://example.com/fallout_4.jpg"
+    },
+    {
+      "title": "Pokémon Shield",
+      "genre": "Role-playing",
+      "price": "59.99",
+      "url": "https://example.com/pokemon_shield.jpg"
+    },
+    {
+      "title": "Sea of Thieves",
+      "genre": "Action-adventure",
+      "price": "39.99",
+      "url": "https://example.com/sea_of_thieves.jpg"
+    },
+    {
+      "title": "Monster Hunter: World",
+      "genre": "Action role-playing",
+      "price": "59.99",
+      "url": "https://example.com/monster_hunter_world.jpg"
+    },
+    {
+      "title": "Resident Evil 7: Biohazard",
+      "genre": "Survival horror",
+      "price": "19.99",
+      "url": "https://example.com/resident_evil_7.jpg"
+    },
+    {
+      "title": "NBA 2K19",
+      "genre": "Sports",
+      "price": "19.99",
+      "url": "https://example.com/nba_2k19.jpg"
+    },
+    {
+      "title": "Need for Speed Heat",
+      "genre": "Racing",
+      "price": "59.99",
+      "url": "https://example.com/need_for_speed_heat.jpg"
+    },
+    {
+      "title": "Crash Team Racing Nitro-Fueled",
+      "genre": "Kart racing",
+      "price": "39.99",
+      "url": "https://example.com/crash_team_racing.jpg"
+    },
+    {
+      "title": "The Outer Worlds",
+      "genre": "Action role-playing",
+      "price": "59.99",
+      "url": "https://example.com/outer_worlds.jpg"
+    }
+  ]

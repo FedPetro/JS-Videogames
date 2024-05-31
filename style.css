@@ -112,6 +112,22 @@ p {
 
 
 /* pagina categorie */
-.marginCat{
-    margin-top: 8vh;
+.marginCanvas{
+    margin-top: 10vh;
+}
+
+.hoverFilters:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* accordions per categorie */
+/* background accordion active */
+/* .accordion{
+    --bs-accordion-active-bg: var(--bs-white);
+} */
+
+.catEffetto:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }

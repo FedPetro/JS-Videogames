@@ -68,22 +68,30 @@ fetch('./data.json')                            //collegamento al file json
             let catDiv = document.createElement('div');
             catDiv.classList.add('col-12', 'col-md-4', 'textFont', 'w-100', 'd-flex', 'catEffetto');
                 catDiv.innerHTML = `
-                <p class ="categoria" id="${category}">${category}</p>
+                <option selected value="${category}" class="textFont catEffetto categoria" id="${category}">${category}</option>
+
+
                 `  //assegnare un id ${category} permette di settare un id diverso per ogni categoria che ha lo stesso nome di essa.
                 //passo le categorie ricavate dal array che ha tutte le categorie singolari (uniche)
+                //selected è un attributo aggiunto per permettere più avanti di selezionare la categoria (riga 86)
                 categoryWrapper.appendChild(catDiv);
         })
     }
         createCategories();
 
         let categoriesClass = document.querySelectorAll('.categoria'); //vado a catturare tutte le categorie che ho creato tramite createCategories() qui sopra + quella con id tutte in HTML che sarà la default al caricamento della pagina
-
         function filterByCategory(){
-            console.log("ciao");
+            // console.log(categoriesClass); se vado a stampare vedrò che è una nodelist... Che deve essere trasformata in un array per poter essere lavorata
+            let catArray = Array.from(categoriesClass); //trasformo quindi la nodelist in un array salvandolo (catArray)
+            // console.log(catArray); al click sulle categorie vedrò un array non più una nodelist
+            let selected = catArray.find((categoriaClickata) => categoriaClickata.selected); // nell'array, vai a cercare l'elemento con attributo find (salvato in una variabile perchè find ritorna il primo elemento)
+            console.log(selected);
+            ; //salvo l'id dell'elemento clickato in una variabile
         }
-            categoriesClass.forEach((categoria)=>{
-               categoria.addEventListener('click', () => {
+            categoriesClass.forEach((categoria)=>{ 
+               categoria.addEventListener('click', () => {  
                     filterByCategory();
                }) 
             })
+
 })

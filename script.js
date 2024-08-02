@@ -33,28 +33,30 @@ let games = [
 let row = document.querySelector('#cardWrapper');
 
 function createCards(){
-games.forEach((game) => {
-    let divCol = document.createElement('div');
-    divCol.classList.add('col-12', 'col-md-2');
-    divCol.innerHTML = `
-    <div class="card border-0 position-relative" style="width: 18rem;">
-                    <img src="${game.photo}" class="card-img-top" alt="...">
-                    <i class="bi bi-cart"></i>
-                    <div class="card-body bg-black ">
-                      <h5 class="card-title displayFont text-light">${game.name}</h5>
-                      <p class="textFont text-light">${game.price} </p>
-                      <p class="textFont text-light">${game.genre} </p>
-                      <p class="textFont text-light number1 mt-2">Più di 0 utenti </p>
-                    </div>
-                        <div class="consoles mt-2">
-                            <img src="./media/svg_.svg" alt="" class="consoleSize">
-                            <img src="./media/svg_ (1).svg" alt="" class="consoleSize">
-                            <img src="./media/svg_ (2).svg" alt="" class="consoleSize">
-                            <img src="./media/svg_ (3).svg" alt="" class="consoleSize">
+    cardWrapper.innerHTML = '';       
+    array.sort((a,b) => b.price - a.price);     //mostra le card in ordine decrescente di prezzo
+    games.forEach((game) => {
+        let divCol = document.createElement('div');
+        divCol.classList.add('col-12', 'col-md-2');
+        divCol.innerHTML = `
+        <div class="card border-0 position-relative" style="width: 18rem;">
+                        <img src="${game.photo}" class="card-img-top" alt="...">
+                        <i class="bi bi-cart"></i>
+                        <div class="card-body">
+                        <h5 class="card-title displayFont">${game.name}</h5>
+                        <p class="textFont">${game.price} </p>
+                        <p class="textFont">${game.genre} </p>
+                        <p class="textFont number1 mt-2">Più di 0 utenti </p>
                         </div>
-                  </div>
-    `
-    row.appendChild(divCol);
+                            <div class="consoles pt-2">
+                                <img src="./media/svg_.svg" alt="" class="consoleSize">
+                                <img src="./media/svg_ (1).svg" alt="" class="consoleSize">
+                                <img src="./media/svg_ (2).svg" alt="" class="consoleSize">
+                                <img src="./media/svg_ (3).svg" alt="" class="consoleSize">
+                            </div>
+                    </div>
+        `
+        row.appendChild(divCol);
 }) 
 
 // funzione icona metti nel carrello (lezione like cuoricini)

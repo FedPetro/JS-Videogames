@@ -1,6 +1,19 @@
+
+:root{   
+    --main: #DCF2F1;
+    --sec: #7FC7D9;
+    --third: #365486;
+    --accent: #0F1035;
+}
+
+body{
+    background-color: var(--main);
+}
+
+
 /* NAVBAR */
 .navbar{
-    background-color: black;
+    background-color: var(--accent);
 }
 
 .widthScroll{
@@ -56,7 +69,7 @@ p {
 }
 
 .btn-primary{
-    background-color: black;
+    background-color: var(--accent);
     height: 7vh;
 }
 
@@ -130,4 +143,43 @@ p {
 .catEffetto:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.form-control{
+    height: 6vh;
+}
+
+.card-body{
+    background-color: var(--third);
+}
+
+.card-title{
+    color: var(--main);
+}
+
+.textFont{
+    color: var(--main);
+}
+
+.bi-cart{
+    color: var(--main);
+}
+
+.consoles{
+    background-color: var(--accent);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.accordion-button{
+    background-color: var(--third);
+    color: var(--main);
+}
+
+.accordion-body{
+    background-color: var(--main);
+}
+
+.form-check-label{
+    color: var(--accent);
 }

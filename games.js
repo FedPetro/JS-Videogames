@@ -17,6 +17,8 @@ fetch('./data.json')                            //collegamento al file json
                 navbar.classList.remove('fixed-top');
                 navbar.classList.add('widthScroll');
                 navbar.classList.add('fixed-bottom')
+                navbar.classList.add('w-100');
+                navbar.classList.add('ms-0');
             }else {
                 navbar.classList.remove('fixed-bottom');
                 navbar.classList.remove('widthScroll');
@@ -30,14 +32,13 @@ fetch('./data.json')                            //collegamento al file json
             divCol.classList.add('col-6', 'col-md-4');  //gli do le classi per farlo diventare una colonna bootstrap
             //modifico il contenuto della colonna con quello che scriverei in html (innerHTML)
             divCol.innerHTML = ` 
-            <div class="card border-0 position-relative" style="width: 18rem;">
-            <img src="${game.url}" class="card-img-top" alt="...">
+            <div class="card border-0 position-relative marginCard" >
+            <img src="${game.url}" class="card-img-top imageCard" alt="...">
             <i class="bi bi-cart"></i>
             <div class="card-body">
             <h5 class="card-title displayFont text-light text-truncate" title="${game.title}">${game.title}</h5>
             <p class="textFont">${game.price} </p>
             <p class="textFont">${game.genre} </p>
-            <p class="textFont number1 mt-2">Più di 0 utenti </p>
             </div>
             <div class="consoles pt-2 text-center">
             <img src="./media/svg_.svg" alt="" class="consoleSize">

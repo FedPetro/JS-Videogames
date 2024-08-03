@@ -39,6 +39,10 @@ p {
     font-weight: 500;
 }
 
+.nav-link:hover{
+    text-decoration: underline;
+}
+
 /* cancello freccette default per dropdown */
 .dropdown-toggle::after {  
     display: none;
@@ -48,8 +52,22 @@ p {
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: var(--main);
+    color: var(--accent);
+}
 
+/* home */
+.btnTitoli:hover{
+    transition: 0.5s;
+    scale: 1.2 !important;
+    background-color: var(--accent) !important;
+    color: var(--main);
+}
 
+.titoliBox{
+    height: 25vh;
+}
 
 /* Carousel Header */
 .carouselOne, .carouselTwo, .carouselThree{
@@ -176,10 +194,55 @@ p {
     color: var(--main);
 }
 
-.accordion-body{
-    background-color: var(--main);
+.collapseOne{
+    background-color: var(--main) !important;
 }
 
 .form-check-label{
     color: var(--accent);
+}
+
+/* tutti i giochi */
+.imageCard{
+    height: 300px;
+}
+
+.marginCard{
+    margin-bottom: 20px;
+}
+
+.accordion-button{
+    height: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .accordion-button{
+        height: 10vh;
+    }
+
+    .filters{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-control{
+        height: 42px;
+    }
+    
+ }
+
+ .btnSearch{
+    background-color: var(--third);
+    color: var(--main);
+ }
+
+ .btnSearch:hover{
+    background-color: var(--third);
+    color: var(--main);
+    scale:1.1;
+    transition: 0.5;
+ }
+
+ .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
